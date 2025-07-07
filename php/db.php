@@ -8,7 +8,7 @@ try {
     
     $conn = new mysqli($servername, $username, $password, $dbname);   
 
-} catch (mysqli_sql_exception $e) {
+} catch (mysqli_sql_exception) {
    
     die("Connection failed. Something went wrong");
 }
